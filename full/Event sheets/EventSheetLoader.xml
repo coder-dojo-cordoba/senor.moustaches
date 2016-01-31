@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventSheetLoader</name>
+    <events>
+        <variable constant="0" name="Timer" sid="532277830388646" static="0" type="number">10</variable>
+        <event-block sid="2485054643192673">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="9899085853713663" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="7243645027160613" type="System">
+                    <param id="0" name="Variable">Timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="7925540118792229" type="TimerText">
+                    <param id="0" name="Text">Timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3000104033241523">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2644632192657138" type="System">
+                    <param id="0" name="Variable">Timer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9008142017284818" type="System">
+                    <param id="0" name="Layout">Layout Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

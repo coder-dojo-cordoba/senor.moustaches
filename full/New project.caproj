@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>8er8lj8r0htm</unique-id>
+    <saved-with-version>22100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="SenorMoustaches" sid="9693090851197153">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="1" name="Corriendo" pingpong="0" repeatcount="1" repeatto="0" sid="338719556854518" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (1) Negro.png">
+                        <collision-poly>
+                            <point x="0.319188" y="0.364979" />
+                            <point x="0.5" y="0.198312" />
+                            <point x="0.738007" y="0.299578" />
+                            <point x="0.773063" y="0.5" />
+                            <point x="0.680812" y="0.635021" />
+                            <point x="0.5" y="0.970464" />
+                            <point x="0.354244" y="0.594937" />
+                            <point x="0.261993" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (2) Negro.png">
+                        <collision-poly>
+                            <point x="0.330258" y="0.377637" />
+                            <point x="0.5" y="0.189873" />
+                            <point x="0.756458" y="0.278481" />
+                            <point x="0.789668" y="0.5" />
+                            <point x="0.682657" y="0.637131" />
+                            <point x="0.5" y="0.839662" />
+                            <point x="0.363469" y="0.584388" />
+                            <point x="0.280443" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (3) Negro.png">
+                        <collision-poly>
+                            <point x="0.339483" y="0.388186" />
+                            <point x="0.5" y="0.177215" />
+                            <point x="0.778598" y="0.253165" />
+                            <point x="0.802583" y="0.5" />
+                            <point x="0.5" y="0.833333" />
+                            <point x="0.295203" y="0.662447" />
+                            <point x="0.298893" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (4) Negro.png">
+                        <collision-poly>
+                            <point x="0.330258" y="0.377637" />
+                            <point x="0.5" y="0.189873" />
+                            <point x="0.756458" y="0.278481" />
+                            <point x="0.785978" y="0.5" />
+                            <point x="0.680812" y="0.635021" />
+                            <point x="0.5" y="0.835443" />
+                            <point x="0.361624" y="0.586498" />
+                            <point x="0.282288" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (5) Negro.png">
+                        <collision-poly>
+                            <point x="0.319188" y="0.364979" />
+                            <point x="0.5" y="0.202532" />
+                            <point x="0.734317" y="0.303797" />
+                            <point x="0.771218" y="0.5" />
+                            <point x="0.680812" y="0.635021" />
+                            <point x="0.5" y="0.968354" />
+                            <point x="0.356089" y="0.592827" />
+                            <point x="0.263838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (6) Negro.png">
+                        <collision-poly>
+                            <point x="0.326568" y="0.373418" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.758303" y="0.276371" />
+                            <point x="0.785978" y="0.5" />
+                            <point x="0.682657" y="0.637131" />
+                            <point x="0.5" y="0.947257" />
+                            <point x="0.361624" y="0.586498" />
+                            <point x="0.278598" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (7) Negro.png">
+                        <collision-poly>
+                            <point x="0.333948" y="0.381857" />
+                            <point x="0.5" y="0.175105" />
+                            <point x="0.780443" y="0.251055" />
+                            <point x="0.797048" y="0.5" />
+                            <point x="0.704797" y="0.662447" />
+                            <point x="0.5" y="0.888186" />
+                            <point x="0.298893" y="0.658228" />
+                            <point x="0.295203" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\code\senor.moustaches\assets\cat\Run (8) Negro.png">
+                        <collision-poly>
+                            <point x="0.328413" y="0.375527" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.754613" y="0.280591" />
+                            <point x="0.782288" y="0.5" />
+                            <point x="0.678967" y="0.632911" />
+                            <point x="0.5" y="0.945148" />
+                            <point x="0.363469" y="0.584388" />
+                            <point x="0.280443" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Terreno" sid="5874444780651253">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="8254866433557943">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3575796841874798" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TimerText" sid="4979693477495206">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Menu" sid="622841163936446">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>LayoutLoader.xml</layout>
+        <layout>Layout Menu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventSheetLoader.xml</event-sheet>
+        <event-sheet>EventSheetMenu.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
