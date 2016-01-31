@@ -27,5 +27,137 @@
             </conditions>
             <actions />
         </event-block>
+        <event-block sid="2430894237183249">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="548815816102787" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4640294466830819" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="8882533496856248">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2637693406585652" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9665908971077212" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="465289103595189">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9327208768742635" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="443000872921945" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="7428640562336845">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="867790116359002" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5839871649126153" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="5894208653046865">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7238778508480175" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6152950236325809" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="6006036778313111">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2895112152305601" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4232178229592458" type="SPIKE7" />
+            </actions>
+        </event-block>
+        <event-block sid="4949964503989507">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1647001576228687" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7541775176385059" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4843355682799858">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4155147643061362" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9332671626048011" type="Text2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2011601084684921">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7214970210310695" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3659129576189905" type="Text3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9285669737988087">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8087071675053271" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="700241944682811" type="Text4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1815542228699872">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="706095591306018" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2101304338764151" type="Text5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="542031556424021">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1408323106440657" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2783886845547723" type="Text6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

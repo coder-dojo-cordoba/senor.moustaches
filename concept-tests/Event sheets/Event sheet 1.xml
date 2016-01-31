@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="5748713371022191">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="7041395969510194" type="MRMOSTACHE">
+                    <param id="0" name="Object">SPIKE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4513580244707116" type="MRMOSTACHE" />
+            </actions>
+        </event-block>
+        <event-block sid="4097158399474676">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="8969337648380625" type="MRMOSTACHE" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="7402647237929348">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6457336739260528" type="MRMOSTACHE">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
